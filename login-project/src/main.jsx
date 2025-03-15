@@ -2,6 +2,8 @@ import reactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from "./App";
+import ErrorPage from "./pages/Error";
+import LoginPage from "./pages/Login";
 
 const router = createBrowserRouter([
   {
